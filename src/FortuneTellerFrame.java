@@ -20,19 +20,6 @@ public class FortuneTellerFrame extends JFrame {
     int lastFortuneIndex = -1;
     ArrayList<String> fortunes = new ArrayList<>();
 
-//    fortunes[0] = "You will have a great day!";
-//    fortunes[1] = "A surprise is waiting for you around the corner.";
-//    fortunes[2] = "Your hard work will soon pay off.";
-//    fortunes[3] = "You will meet someone special soon.";
-//    fortunes[4] = "An exciting opportunity is on the horizon.";
-//    fortunes[5] = "You will find joy in unexpected places.";
-//    fortunes[6] = "Your positive attitude will attract good things.";
-//    fortunes[7] = "A new adventure is about to begin.";
-//    fortunes[8] = "You will achieve your goals with determination.";
-//    fortunes[9] = "Your kindness will be rewarded.";
-//    fortunes[10] = "You will discover a hidden talent.";
-//    fortunes[11] = "A pleasant surprise is in store for you.";
-
     public static void main(String[] args)
     {
         // The invokeLater method ensures the GUI is created on the
@@ -115,7 +102,4 @@ public class FortuneTellerFrame extends JFrame {
             lastFortuneIndex = fortuneIndex;
         });
     }
-
-
-
 }
